@@ -16,6 +16,7 @@
       - [css 样式初始化](#css-样式初始化)
       - [伪元素和伪类](#伪元素和伪类)
       - [盒子两端对齐](#盒子两端对齐)
+      - [@import 和 link 的区别](#import-和-link-的区别)
   - [js](#js)
       - [深拷贝和浅拷贝](#深拷贝和浅拷贝)
       - [Object.assign(mainObject，...)](#objectassignmainobject)
@@ -462,6 +463,16 @@ justify-content: center，若盒子移位了，表示溢出
                 content: "";
             }
   ```
+
+#### @import 和 link 的区别
+
+同：都用于引入外部的css的资源，
+异：link是html标签，可以使用createElement的方式进行动态加载，但是@import没有；link是标签没有兼容问题，但是@import有；link不影响页面加载，@import执行完页面才加载
+
+```js
+@import url('url')
+<link href="" type="stylesheet">
+```
 
 ## js
 
