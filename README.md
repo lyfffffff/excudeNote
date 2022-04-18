@@ -16,7 +16,7 @@
       - [css 样式初始化](#css-样式初始化)
       - [伪元素和伪类](#伪元素和伪类)
       - [盒子两端对齐](#盒子两端对齐)
-- [js](#js)
+  - [js](#js)
       - [深拷贝和浅拷贝](#深拷贝和浅拷贝)
       - [Object.assign(mainObject，...)](#objectassignmainobject)
       - [检测数据类型与 toString()](#检测数据类型与-tostring)
@@ -27,12 +27,12 @@
       - [toString 和 valueOf 的区别](#tostring-和-valueof-的区别)
     - [prototype 和 **proto** 的区别和联系](#prototype-和-proto-的区别和联系)
       - [Object 对象上操作原型对象的方法](#object-对象上操作原型对象的方法)
-- [Vue](#vue)
+  - [Vue](#vue)
       - [Vue 事件](#vue-事件)
     - [自定义指令](#自定义指令)
       - [自定义指令的钩子函数(pFunction) 五个](#自定义指令的钩子函数pfunction-五个)
       - [钩子函数的参数](#钩子函数的参数)
-- [ES6](#es6)
+  - [ES6](#es6)
       - [class 类](#class-类)
   - [HTTP 请求](#http-请求)
     - [AJAX 请求](#ajax-请求)
@@ -44,7 +44,7 @@
       - [getters](#getters)
       - [mutations](#mutations)
       - [actions](#actions)
-- [零碎](#零碎)
+  - [零碎](#零碎)
       - [Promise 调用的区别](#promise-调用的区别)
       - [CLS](#cls)
       - [IIFE](#iife)
@@ -463,7 +463,7 @@ justify-content: center，若盒子移位了，表示溢出
             }
   ```
 
-# js
+## js
 
 #### 深拷贝和浅拷贝
 
@@ -747,7 +747,7 @@ obj.__proto__ == obj1 // true
 
 ```
 
-# Vue
+## Vue
 
 #### Vue 事件
 
@@ -842,7 +842,7 @@ directives:{
 }
 ```
 
-# ES6
+## ES6
 
 #### class 类
 
@@ -1273,7 +1273,7 @@ methods:{ ...mapActions(['addCount'])}
 - 命名空间
   当模块没有添加 namespaced 属性时，action 和 mutation 仍是全局的。添加 namespaced:true 表示该模块是命名空间，该模块的 getter、action 及 mutation 都会根据模块注册路径调整命名
 
-# 零碎
+## 零碎
 
 #### Promise 调用的区别
 
