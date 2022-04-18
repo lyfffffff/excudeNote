@@ -1,5 +1,3 @@
-# excudeNote
-
 [TOC]
 
 # css
